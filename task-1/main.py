@@ -156,13 +156,7 @@ def convert_to_pdf(base, df):
         spaceAfter=paragraph_spacing,
         leading=line_spacing * font_size
     )
-    header_style = ParagraphStyle(
-        'CustomHeader',
-        parent=styles['Normal'],
-        fontName='Arial',
-        fontSize=font_size,
-        leading=font_size * line_spacing,
-    )
+
     title_style = ParagraphStyle(
         'CustomTitle',
         parent=styles['Title'],
@@ -175,7 +169,6 @@ def convert_to_pdf(base, df):
         'CustomData',
         parent=styles['Normal'],
         fontName='Arial',
-        fontSize=font_size,
         alignment=TA_CENTER,
     )
 
@@ -192,7 +185,7 @@ def convert_to_pdf(base, df):
     for i, row in df.iterrows():
         if page_numbers:
             hp = f"{base} | Row {i + 1} of {len(df)}"
-            story.append(Paragraph(hp, header_style))
+            story.append(Paragraph(hp))
             story.append(HRFlowable(width="100%", thickness=0.5, color=colors.black, spaceAfter=6))
 
         for col in df.columns:
