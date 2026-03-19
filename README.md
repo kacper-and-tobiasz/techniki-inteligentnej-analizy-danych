@@ -15,6 +15,8 @@ An application for converting table-like `.xlsx` files into `.docx` and `.pdf` f
 - Kacper Majkowski, student ID: 251578
 - Tobiasz Kowalczyk, student ID: 252943
 
+> **NOTE:** a large portion of this codebase is worked on using real-time collaboration tools such us `VS Code Live Share`, so commits **DO NOT** reflect real division of labor.
+
 # License
 
 Contents of this repository are licensed under MIT License. For detailed license information please refer to the`LICENSE` file.
