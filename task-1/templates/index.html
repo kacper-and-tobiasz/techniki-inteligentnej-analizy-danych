@@ -125,9 +125,7 @@
 
         loadSettings();
         mode.addEventListener('change', update);
-        window.addEventListener("unload", () => {
-            navigator.sendBeacon("/shutdown");
-        });
+        setInterval(() => fetch("/keepalive"), 18_000);
         update();
     </script>
 </body>

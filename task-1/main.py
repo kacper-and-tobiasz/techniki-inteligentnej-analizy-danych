@@ -32,7 +32,6 @@ import os.path
 import zipfile
 import io
 
-
 def resource_path(relative_path):
     try:
         base_path = sys._MEIPASS  # PyInstaller temp folder
@@ -45,6 +44,7 @@ app = Flask(
     template_folder=resource_path("templates"),
     static_folder=resource_path("static")
 )
+
 
 @app.route('/', methods=['GET'])
 def index():
@@ -64,10 +64,6 @@ def index():
 #
 #  request.form['name']
 #  request.form.get('name', 'default_value')  # Use this to avoid KeyError if the key is missing
-
-@app.route('/shutdown', methods=['POST', 'GET'])
-def shutdown():
-    kill_flask()
 
 @app.route('/upload-file', methods=['POST'])
 def upload_file():
@@ -387,6 +383,26 @@ def insert_hr_docx(paragraph):
     bottom.set(qn('w:color'), 'auto')
     pBdr.append(bottom)
 
+@app.route('/shutdown', methods=['POST', 'GET'])
+def shutdown():
+    kill_app()
+
+def kill_app():
+    os.kill(multiprocessing.current_process().pid, signal.SIGTERM) 
+    
+def reset_timer():
+    global _life_timer
+    if _life_timer is not None:
+        _life_timer.cancel()
+    
+    _life_timer = threading.Timer(60.0, kill_app)
+    _life_timer.daemon = True
+    _life_timer.start()
+    
+@app.route('/keepalive', methods=['POST', 'GET'])
+def keepalive():
+    reset_timer()
+    return 'Timer reset', 200
 
 def open_site():
     webbrowser.open("http://127.0.0.1:5000")
@@ -394,15 +410,13 @@ def open_site():
 def run_flask():
     app.run(port=5000)
 
-def kill_flask():
-    proc = multiprocessing.current_process()
-    os.kill(proc.pid, signal.SIGTERM) 
-    proc.join()
+_life_timer = None
 
 if __name__ == '__main__':
-    proc = threading.Thread(target=run_flask)
-    proc.start()
     threading.Thread(target=open_site).start()
+    threading.Thread(target=run_flask).start()
+    reset_timer()
+    
     
 
 
