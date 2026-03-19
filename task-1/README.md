@@ -8,6 +8,38 @@ This project is an application for converting table-like `.xlsx` files into `.do
 
 App comes bundled in a single `.exe` file with integrated `Werkzeug’s development server` inside.
 
+# Build
+
+## Requirements
+
+1. Latest version of [uv project manager](https://docs.astral.sh/uv/)
+
+## Steps
+
+1. Clone the repository to your current directory
+    ```
+    git clone https://github.com/kacpermajkowski/techniki-inteligentnej-analizy-danych.git .
+    ```
+2. Go into project directory
+    ```
+    cd task-1
+    ```
+3.  Install required Python version, create virtual environment and install dependencies
+    ```
+    uv sync
+    ```
+4. Ways to run:
+    - Start a development server
+        ```
+        uv run main.py
+        ```
+    - Build and run an `.exe`
+        1. Build
+            ```
+            uv run pyinstaller main.spec
+            ```
+        2. Executable will be at `/dist/main.exe`
+
 # Usage
 
 1. Find and download desired executable version from [GitHub Releases](https://github.com/kacpermajkowski/techniki-inteligentnej-analizy-danych/releases)

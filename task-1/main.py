@@ -169,8 +169,8 @@ def convert_to_pdf(base, df):
     title_style = ParagraphStyle(
         'CustomTitle',
         parent=styles['Title'],
-        fontName='Arial',
-        fontSize=font_size,
+        fontName='Arial-Bold',
+        fontSize=24,
         alignment=TA_CENTER,
     )
 
@@ -270,6 +270,13 @@ def convert_to_docx(base, df):
     return buffer
 
 def df_to_docx_table(base, df):
+    align_map = {
+        "left": WD_ALIGN_PARAGRAPH.LEFT,
+        "center": WD_ALIGN_PARAGRAPH.CENTER,
+        "right": WD_ALIGN_PARAGRAPH.RIGHT,
+        "justify": WD_ALIGN_PARAGRAPH.JUSTIFY,
+    }
+        
     line_spacing = float(request.form.get('line_spacing', 1.0))
     title        = request.form.get('title', None)
     alignment    = request.form.get('alignment', 'left')

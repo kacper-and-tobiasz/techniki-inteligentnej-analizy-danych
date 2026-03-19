@@ -1,5 +1,6 @@
 *.docx
 *.pdf
+*.xlsx
 .venv
 dist
 build
