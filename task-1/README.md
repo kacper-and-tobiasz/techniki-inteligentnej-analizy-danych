@@ -1,13 +1,16 @@
-To start, open Powershell or Terminal app in directory with the software and run these commands:
-```
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-./start.ps1
-```
+# About
 
-Authors:
-Kacper Majkowski 251578
-Tobiasz Kowalczyk ??????
+This project is an application for converting table-like `.xlsx` files into `.docx` and `.pdf` files with two options for opinionated formating.
 
-Starting script was written using LLMs. 
-One function has been taken from github issues of one of the dependencies. It has its source marked in a comment.
-The rest of the code was written manually by us.
+## Tech stack
++ **Backend:** Python + Flask + pyinstaller
++ **Frontend:** HTML + CSS + JS
+
+App comes bundled in a single `.exe` file with integrated `Werkzeug’s development server` inside.
+
+# Usage
+
+1. Find and download desired executable version from [GitHub Releases](https://github.com/kacpermajkowski/techniki-inteligentnej-analizy-danych/releases)
+2. Run the executable. The app will start in your default browser in a few seconds.
+3. The web app will guide you through the options and conversion process.
+4. After you're done with conversions, simply close the tab and local server running in the background will close automatically.
