@@ -1,4 +1,5 @@
 import signal
+import sys
 import tempfile
 from datetime import datetime
 from pathlib import Path
@@ -31,6 +32,11 @@ import os.path
 
 import zipfile
 import io
+
+if getattr(sys, 'frozen', False) and sys.platform == 'win32':
+    sys.stdout = open(os.devnull, 'w')
+    sys.stderr = open(os.devnull, 'w')
+    sys.stdin  = open(os.devnull, 'r')
 
 def resource_path(relative_path):
     try:
