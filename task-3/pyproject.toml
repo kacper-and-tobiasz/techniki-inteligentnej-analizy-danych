@@ -3,5 +3,12 @@ name = "task-3"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.13"
+dependencies = [
+    "tensorflow>=2.15",
+    "scikit-learn>=1.4",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "numpy>=1.26",
+    "pandas>=2.1",
+]
