@@ -1,0 +1,274 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Pierogi ruskie",
+      "category": "danie główne",
+      "prep_time": "90 min",
+      "servings": 4,
+      "ingredients": ["mąka", "jajka", "ziemniaki", "twaróg", "cebula", "masło", "sól", "pieprz"],
+      "instructions": "Zagnieść ciasto z mąki, jajek i wody. Ugotować ziemniaki, wymieszać z twarogiem i smażoną cebulą. Wyciąć krążki, nałożyć farsz, zlepić brzegi. Gotować w osolonej wodzie 3-4 minuty po wypłynięciu."
+    },
+    {
+      "id": 2,
+      "name": "Bigos staropolski",
+      "category": "danie główne",
+      "prep_time": "180 min",
+      "servings": 8,
+      "ingredients": ["kapusta kiszona", "kapusta", "kiełbasa", "boczek", "grzyby", "cebula", "pomidor", "śliwki", "sól", "pieprz"],
+      "instructions": "Pokroić kapustę i kiszoną kapustę. Podsmażyć boczek i kiełbasę. Dodać cebulę, grzyby, pomidory i śliwki. Dusić wszystko razem na małym ogniu przez 2-3 godziny, mieszając od czasu do czasu."
+    },
+    {
+      "id": 3,
+      "name": "Żurek",
+      "category": "zupa",
+      "prep_time": "60 min",
+      "servings": 6,
+      "ingredients": ["zakwas żurowy", "kiełbasa", "jajka", "ziemniaki", "czosnek", "śmietana", "chrzan", "sól", "pieprz"],
+      "instructions": "Ugotować ziemniaki i kiełbasę w bulionie. Dodać zakwas żurowy, czosnek i chrzan. Doprawić śmietaną. Podawać z jajkiem ugotowanym na twardo i kiełbasą."
+    },
+    {
+      "id": 4,
+      "name": "Rosół z kurczaka",
+      "category": "zupa",
+      "prep_time": "120 min",
+      "servings": 6,
+      "ingredients": ["kurczak", "marchew", "pietruszka", "seler", "cebula", "por", "makaron", "sól", "pieprz"],
+      "instructions": "Kurczaka zalać zimną wodą, gotować na wolnym ogniu. Po zagotowaniu zebrać szumowiny. Dodać warzywa. Gotować 1.5 godziny. Podawać z makaronem i posiekaną pietruszką."
+    },
+    {
+      "id": 5,
+      "name": "Kotlet schabowy",
+      "category": "danie główne",
+      "prep_time": "30 min",
+      "servings": 4,
+      "ingredients": ["schab", "jajka", "bułka tarta", "mąka", "olej", "sól", "pieprz"],
+      "instructions": "Schab rozbić tłuczkiem, doprawić solą i pieprzem. Obtaczać kolejno w mące, rozkłóconym jajku i bułce tartej. Smażyć na złocisto na rozgrzanym oleju z obu stron."
+    },
+    {
+      "id": 6,
+      "name": "Placki ziemniaczane",
+      "category": "danie główne",
+      "prep_time": "40 min",
+      "servings": 4,
+      "ingredients": ["ziemniaki", "cebula", "jajka", "mąka", "olej", "sól", "pieprz"],
+      "instructions": "Ziemniaki i cebulę zetrzeć na tarce. Odcisnąć nadmiar płynu. Dodać jajko, mąkę, sól i pieprz. Smażyć placki na rozgrzanym oleju z obu stron na złoty kolor."
+    },
+    {
+      "id": 7,
+      "name": "Gołąbki",
+      "category": "danie główne",
+      "prep_time": "90 min",
+      "servings": 6,
+      "ingredients": ["kapusta", "mięso mielone", "ryż", "cebula", "pomidor", "sól", "pieprz"],
+      "instructions": "Sparzyć liście kapusty. Wymieszać mięso mielone z ugotowanym ryżem, cebulą, solą i pieprzem. Zawijać farsz w liście kapusty. Ułożyć w garnku, zalać sosem pomidorowym. Dusić 45 minut."
+    },
+    {
+      "id": 8,
+      "name": "Sałatka grecka",
+      "category": "sałatka",
+      "prep_time": "15 min",
+      "servings": 4,
+      "ingredients": ["pomidor", "ogórek", "papryka", "cebula", "ser feta", "oliwki", "oliwa z oliwek", "oregano", "sól"],
+      "instructions": "Pokroić pomidory, ogórki i paprykę w kostkę. Dodać pokrojoną cebulę, oliwki i pokruszony ser feta. Polać oliwą z oliwek, posypać oregano i solą."
+    },
+    {
+      "id": 9,
+      "name": "Spaghetti bolognese",
+      "category": "danie główne",
+      "prep_time": "60 min",
+      "servings": 4,
+      "ingredients": ["makaron", "mięso mielone", "pomidor", "cebula", "czosnek", "marchew", "seler", "oliwa z oliwek", "sól", "pieprz"],
+      "instructions": "Podsmażyć cebulę i czosnek na oliwie. Dodać mięso mielone i smażyć do zbrązowienia. Dodać startą marchew, seler i pomidory. Dusić 30 minut. Podawać z ugotowanym makaronem."
+    },
+    {
+      "id": 10,
+      "name": "Kurczak curry",
+      "category": "danie główne",
+      "prep_time": "45 min",
+      "servings": 4,
+      "ingredients": ["kurczak", "cebula", "czosnek", "imbir", "pomidor", "mleko kokosowe", "curry", "ryż", "sól"],
+      "instructions": "Podsmażyć cebulę, czosnek i imbir. Dodać kawałki kurczaka i obsmażyć. Dodać curry, pomidory i mleko kokosowe. Dusić 20 minut. Podawać z ugotowanym ryżem."
+    },
+    {
+      "id": 11,
+      "name": "Zupa pomidorowa",
+      "category": "zupa",
+      "prep_time": "40 min",
+      "servings": 6,
+      "ingredients": ["pomidor", "cebula", "marchew", "pietruszka", "śmietana", "makaron", "masło", "sól", "pieprz"],
+      "instructions": "Ugotować warzywa w bulionie. Dodać pomidory (świeże lub z puszki). Zmiksować, przecedzić. Dodać śmietanę i masło. Podawać z drobnym makaronem lub ryżem."
+    },
+    {
+      "id": 12,
+      "name": "Naleśniki",
+      "category": "deser",
+      "prep_time": "30 min",
+      "servings": 4,
+      "ingredients": ["mąka", "jajka", "mleko", "masło", "cukier", "sól"],
+      "instructions": "Wymieszać mąkę z jajkami, mlekiem, szczyptą soli i cukru. Smażyć cienkie naleśniki na maśle na patelni. Podawać z dżemem, twarogiem lub owocami."
+    },
+    {
+      "id": 13,
+      "name": "Omlet z warzywami",
+      "category": "śniadanie",
+      "prep_time": "15 min",
+      "servings": 2,
+      "ingredients": ["jajka", "papryka", "pomidor", "cebula", "ser", "masło", "sól", "pieprz"],
+      "instructions": "Roztrzepać jajka z solą i pieprzem. Wylać na rozgrzaną patelnię z masłem. Dodać pokrojone warzywa i starty ser. Smażyć do ścięcia jajek, złożyć na pół."
+    },
+    {
+      "id": 14,
+      "name": "Sałatka Cezar",
+      "category": "sałatka",
+      "prep_time": "25 min",
+      "servings": 4,
+      "ingredients": ["sałata", "kurczak", "chleb", "parmezan", "czosnek", "oliwa z oliwek", "jajka", "sól", "pieprz"],
+      "instructions": "Pokroić kurczaka i usmażyć. Przygotować grzanki z chleba z czosnkiem i oliwą. Podać sałatę z kurczakiem, grzankami, parmezanem i dressingiem."
+    },
+    {
+      "id": 15,
+      "name": "Risotto z grzybami",
+      "category": "danie główne",
+      "prep_time": "45 min",
+      "servings": 4,
+      "ingredients": ["ryż", "grzyby", "cebula", "czosnek", "masło", "parmezan", "bulion", "wino białe", "sól", "pieprz"],
+      "instructions": "Podsmażyć cebulę i czosnek na maśle. Dodać ryż, podsmażyć minutę. Dodawać bulion po łyżce, mieszając. Dodać smażone grzyby. Na koniec dodać parmezan i masło."
+    },
+    {
+      "id": 16,
+      "name": "Lasagna",
+      "category": "danie główne",
+      "prep_time": "90 min",
+      "servings": 6,
+      "ingredients": ["makaron", "mięso mielone", "pomidor", "cebula", "czosnek", "ser", "mleko", "masło", "mąka", "sól", "pieprz"],
+      "instructions": "Przygotować sos mięsny z mięsa, cebuli, czosnku i pomidorów. Przygotować sos beszamelowy z masła, mąki i mleka. Układać warstwy: makaron, sos mięsny, beszamel, ser. Piec 40 minut w 180°C."
+    },
+    {
+      "id": 17,
+      "name": "Gulasz wołowy",
+      "category": "danie główne",
+      "prep_time": "120 min",
+      "servings": 6,
+      "ingredients": ["wołowina", "ziemniaki", "marchew", "cebula", "czosnek", "papryka", "pomidor", "sól", "pieprz"],
+      "instructions": "Pokroić wołowinę w kostkę i obsmażyć. Dodać cebulę i czosnek. Dodać paprykę w proszku, pomidory, marchew i ziemniaki. Dusić na wolnym ogniu 1.5-2 godziny."
+    },
+    {
+      "id": 18,
+      "name": "Zupa ogórkowa",
+      "category": "zupa",
+      "prep_time": "50 min",
+      "servings": 6,
+      "ingredients": ["ogórek kiszony", "ziemniaki", "marchew", "śmietana", "koperek", "sól", "pieprz"],
+      "instructions": "Ugotować warzywa w bulionie. Dodać starte ogórki kiszone z sokiem. Gotować 15 minut. Zabielić śmietaną. Posypać koperkiem przed podaniem."
+    },
+    {
+      "id": 19,
+      "name": "Tarta z warzywami",
+      "category": "danie główne",
+      "prep_time": "60 min",
+      "servings": 6,
+      "ingredients": ["mąka", "masło", "jajka", "cukinia", "papryka", "pomidor", "ser", "śmietana", "sól", "pieprz"],
+      "instructions": "Przygotować kruche ciasto z mąki, masła i jajka. Wyłożyć w formie. Pokroić warzywa i ułożyć na cieście. Zalać mieszanką jajek, śmietany i sera. Piec 35 minut w 180°C."
+    },
+    {
+      "id": 20,
+      "name": "Zupa grzybowa",
+      "category": "zupa",
+      "prep_time": "45 min",
+      "servings": 6,
+      "ingredients": ["grzyby", "ziemniaki", "cebula", "śmietana", "marchew", "makaron", "masło", "sól", "pieprz"],
+      "instructions": "Pokroić grzyby i podsmażyć z cebulą na maśle. Dodać do bulionu z ziemniakami i marchewką. Gotować 20 minut. Zabielić śmietaną. Podawać z łazankami."
+    },
+    {
+      "id": 21,
+      "name": "Krokiety z kapustą i grzybami",
+      "category": "danie główne",
+      "prep_time": "60 min",
+      "servings": 4,
+      "ingredients": ["mąka", "jajka", "mleko", "kapusta kiszona", "grzyby", "cebula", "bułka tarta", "olej", "sól", "pieprz"],
+      "instructions": "Przygotować naleśniki z mąki, jajek i mleka. Przygotować farsz z kapusty kiszonej, grzybów i cebuli. Nałożyć farsz na naleśniki, zwinąć. Obtaczać w jajku i bułce tartej. Smażyć na oleju."
+    },
+    {
+      "id": 22,
+      "name": "Leczo",
+      "category": "danie główne",
+      "prep_time": "40 min",
+      "servings": 4,
+      "ingredients": ["papryka", "pomidor", "cebula", "kiełbasa", "czosnek", "olej", "sól", "pieprz"],
+      "instructions": "Pokroić paprykę, cebulę i kiełbasę. Podsmażyć cebulę z czosnkiem na oleju. Dodać kiełbasę, paprykę i pomidory. Dusić 20-25 minut na małym ogniu."
+    },
+    {
+      "id": 23,
+      "name": "Sałatka ziemniaczana",
+      "category": "sałatka",
+      "prep_time": "30 min",
+      "servings": 6,
+      "ingredients": ["ziemniaki", "ogórek kiszony", "cebula", "jajka", "groszek", "majonez", "sól", "pieprz"],
+      "instructions": "Ugotować ziemniaki i jajka. Pokroić w kostkę. Dodać pokrojone ogórki kiszone, cebulę i groszek. Wymieszać z majonezem, doprawić solą i pieprzem."
+    },
+    {
+      "id": 24,
+      "name": "Zupa krem z dyni",
+      "category": "zupa",
+      "prep_time": "45 min",
+      "servings": 4,
+      "ingredients": ["dynia", "ziemniaki", "cebula", "czosnek", "śmietana", "imbir", "masło", "sól", "pieprz"],
+      "instructions": "Pokroić dynię i ziemniaki. Podsmażyć cebulę z czosnkiem na maśle. Dodać dynię, ziemniaki i bulion. Gotować 20 minut. Zmiksować na krem. Dodać śmietanę i imbir."
+    },
+    {
+      "id": 25,
+      "name": "Pizza Margherita",
+      "category": "danie główne",
+      "prep_time": "75 min",
+      "servings": 4,
+      "ingredients": ["mąka", "drożdże", "pomidor", "mozzarella", "oliwa z oliwek", "bazylia", "sól", "cukier"],
+      "instructions": "Przygotować ciasto drożdżowe z mąki, drożdży, wody, oliwy i soli. Rozwałkować. Posmarować sosem pomidorowym. Dodać mozzarellę. Piec w 250°C przez 10-12 minut. Udekorować bazylią."
+    },
+    {
+      "id": 26,
+      "name": "Sernik",
+      "category": "deser",
+      "prep_time": "90 min",
+      "servings": 10,
+      "ingredients": ["twaróg", "jajka", "cukier", "masło", "mąka", "śmietana", "cukier waniliowy", "sól"],
+      "instructions": "Twaróg zemleć 3 razy lub zblendować. Ucierać masło z cukrem, dodawać żółtka. Dodać twaróg, mąkę i śmietanę. Na koniec dodać ubite białka. Piec w 170°C przez 60 minut."
+    },
+    {
+      "id": 27,
+      "name": "Szarlotka",
+      "category": "deser",
+      "prep_time": "75 min",
+      "servings": 8,
+      "ingredients": ["jabłko", "mąka", "masło", "cukier", "jajka", "cynamon", "proszek do pieczenia", "sól"],
+      "instructions": "Przygotować kruche ciasto z mąki, masła, cukru i jajek. Jabłka obrać i pokroić, wymieszać z cukrem i cynamonem. Wyłożyć połowę ciasta w formie, nałożyć jabłka, przykryć resztą ciasta. Piec 45 minut w 180°C."
+    },
+    {
+      "id": 28,
+      "name": "Zupa cebulowa",
+      "category": "zupa",
+      "prep_time": "50 min",
+      "servings": 4,
+      "ingredients": ["cebula", "masło", "mąka", "bulion", "wino białe", "chleb", "ser", "sól", "pieprz"],
+      "instructions": "Pokroić cebulę w piórka i karmelizować na maśle przez 30 minut. Dodać mąkę, wino i bulion. Gotować 15 minut. Podawać z grzanką z chleba posypaną tartym serem."
+    },
+    {
+      "id": 29,
+      "name": "Sałatka z tuńczykiem",
+      "category": "sałatka",
+      "prep_time": "15 min",
+      "servings": 4,
+      "ingredients": ["tuńczyk", "sałata", "pomidor", "ogórek", "cebula", "kukurydza", "oliwa z oliwek", "sól", "pieprz"],
+      "instructions": "Pokroić pomidory, ogórki i cebulę. Wymieszać z sałatą, tuńczykiem i kukurydzą. Polać oliwą z oliwek, doprawić solą i pieprzem."
+    },
+    {
+      "id": 30,
+      "name": "Racuchy z jabłkami",
+      "category": "deser",
+      "prep_time": "30 min",
+      "servings": 4,
+      "ingredients": ["mąka", "jajka", "mleko", "jabłko", "cukier", "drożdże", "olej", "cukier puder", "sól"],
+      "instructions": "Rozpuścić drożdże w ciepłym mleku. Wymieszać z mąką, jajkami i cukrem. Dodać pokrojone jabłka. Odstawić na 30 minut. Smażyć łyżką na rozgrzanym oleju. Posypać cukrem pudrem."
+    }
+  ]
+}
