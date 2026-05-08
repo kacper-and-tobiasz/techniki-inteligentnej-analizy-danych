@@ -345,6 +345,7 @@ class MainWindow(QMainWindow):
             self.ingredient_count_label.setText('0 składników')
             self.search_btn.setEnabled(False)
             self.clear_btn.setEnabled(False)
+            self._clear_recipe_results()
         if self.current_ingredients:
             self._search_recipes()
 
