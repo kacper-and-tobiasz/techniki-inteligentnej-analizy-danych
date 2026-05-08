@@ -1,0 +1,14 @@
+[project]
+name = "zadanie2"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "imageio-ffmpeg>=0.6.0",
+    "numpy>=2.4.4",
+    "openai-whisper>=20250625",
+    "pyinstaller>=6.19.0",
+    "pyside6>=6.11.0",
+    "scipy>=1.17.1",
+    "sounddevice>=0.5.5",
+]
